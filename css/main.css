@@ -73,3 +73,57 @@ button:hover {
   top: 30px;
   left: 475px;
 }
+
+.artigo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.artigo h2 {
+  display: grid;
+  text-align: right;
+  align-self: center;
+
+  color: #3d3d3d;
+  text-align: right;
+  font-size: 6.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4rem;
+}
+
+.lista {
+  padding: 4rem;
+  background-color: #000;
+}
+
+.lista-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 2rem;
+  padding: 20px;
+}
+
+.lista-item:hover {
+  border-left: 3px solid red;
+}
+
+.lista-item:nth-child(odd) {
+  background-color: #313131;
+}
+
+.lista-item p {
+  grid-column: 2;
+}
+
+.lista-item h3 {
+  font-size: 1.8rem;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+  background-color: #000000;
+  padding: 40px;
+}
